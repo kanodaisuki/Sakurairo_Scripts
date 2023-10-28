@@ -9,7 +9,7 @@ function motionSwitch(ele) {
         }
     }
     document.querySelector(ele + '-bar').classList.add("on-hover");
-    document.querySelector(ele + '-container').style.display = 'block';
+    document.querySelector(ele + '-container').style.display = 'flex';
 }
 function grin(tag, type, before, after) {
     let myField;
